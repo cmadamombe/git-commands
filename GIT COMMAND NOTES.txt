@@ -43,6 +43,7 @@ $ git commit -m 'Added my project'
 ## Add new remote origin (in this case, GitHub)
 
 $ git remote add origin git@github.com:sammy/my-new-project.git
+$ git remote add origin https://github.com/career-karma-tutorials/ck-git
 
 ## Note: Don’t forget to replace the highlighted bits above with your username and repo name.
 
