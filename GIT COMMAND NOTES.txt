@@ -64,8 +64,8 @@ GitHub in this case.
 $ git init
 $ git add -A
 $ git commit -m 'Added my project'
-$ git remote add origin git@github.com:sammy/my-new-project.git
-$ git push -u -f origin master "--only -f for the first tym and if there is files in remote server."
+$ git remote add origin git@github.com:sammy/my-new-project.git  "----this is done ONLY once when setting the github"
+$ git push -u -f origin master "--only -f for the first tym and if there is files in remote github. Otherwise just do git push"
 ====================================================================================================================
 Staging
 ====================================================================================================================
@@ -126,4 +126,10 @@ https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-gu
 ## Once you start collaborating with others on the project, you’ll want to know how to create a pull request.
 
 https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
+====================================================================================================================
+Connecting to GitHub with SSH  ---  "done before connecting git to github.com"
+====================================================================================================================
+## You can connect to GitHub using the Secure Shell Protocol (SSH), which provides a secure channel over an unsecured network.
+
+## https://docs.github.com/en/authentication/connecting-to-github-with-ssh
 ====================================================================================================================
